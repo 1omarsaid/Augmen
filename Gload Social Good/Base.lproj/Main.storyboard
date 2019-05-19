@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lag-eR-uuw">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BV1-FR-VrT" customClass="ViewController" customModule="Gload_Social_Good" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="778"/>
+                            </arscnView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="97"/>
+        </scene>
+        <!--Snapchat View Controller-->
+        <scene sceneID="0uD-1E-kPW">
+            <objects>
+                <viewController storyboardIdentifier="SnapchatViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lag-eR-uuw" customClass="SnapchatViewController" customModule="Gload_Social_Good" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wsu-cq-ONb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Glg-cM-XSr">
+                                <rect key="frame" x="101" y="265" width="173" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="logoo.png"/>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="Lag-eR-uuw" eventType="touchUpInside" id="bmR-PS-ugT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gE-uy-GzQ">
+                                <rect key="frame" x="0.0" y="530" width="375" height="248"/>
+                                <connections>
+                                    <action selector="goToMenu:" destination="Lag-eR-uuw" eventType="touchUpInside" id="81Z-gP-v1U"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login with snachat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2IX-ng-NoW">
+                                <rect key="frame" x="115" y="420" width="144" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="or" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ghe-Ve-2eA">
+                                <rect key="frame" x="179" y="449" width="16" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fb-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="uNf-WH-mtm">
+                                <rect key="frame" x="74" y="478" width="226" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Augmen-Travel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jin-U6-YCm">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="293"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.086274509803921567" green="0.1764705882352941" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="49"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.22304514895747032" green="0.29134734879867435" blue="0.2627450980392157" alpha="0.68469410211267601" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="3gE-uy-GzQ" firstAttribute="bottom" secondItem="7l9-SQ-78a" secondAttribute="bottom" id="Eck-05-lCc"/>
+                            <constraint firstItem="3gE-uy-GzQ" firstAttribute="top" secondItem="7l9-SQ-78a" secondAttribute="top" constant="486" id="F8O-a4-VMD"/>
+                            <constraint firstItem="3gE-uy-GzQ" firstAttribute="trailing" secondItem="7l9-SQ-78a" secondAttribute="trailing" id="M3X-vf-7fI"/>
+                            <constraint firstItem="3gE-uy-GzQ" firstAttribute="leading" secondItem="7l9-SQ-78a" secondAttribute="leading" id="lNt-iD-wng"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7l9-SQ-78a"/>
+                    </view>
+                    <connections>
+                        <outlet property="loginButton" destination="Glg-cM-XSr" id="ckG-Do-YfI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vda-9Y-A33" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2136.8000000000002" y="97.536945812807886"/>
+        </scene>
+        <!--Capture View Controller-->
+        <scene sceneID="9By-2W-kff">
+            <objects>
+                <viewController storyboardIdentifier="CaptureViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nfI-ex-5yw" customClass="CaptureViewController" customModule="Gload_Social_Good" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QVY-Qn-n8o">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PZ5-aI-81v"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7eV-JY-yEL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1114" y="-549"/>
+        </scene>
+        <!--Food View Controller-->
+        <scene sceneID="mEw-Bh-6KX">
+            <objects>
+                <viewController storyboardIdentifier="FoodViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aY2-QF-dZ6" customClass="FoodViewController" customModule="Gload_Social_Good" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ega-7F-3tk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nBC-Ap-Tge"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="esX-E4-nJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-232" y="-542"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="IQc-rd-DZ6">
+            <objects>
+                <viewController storyboardIdentifier="MenuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="W1v-KD-UtS" customClass="MenuViewController" customModule="Gload_Social_Good" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="02h-gE-WnC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="TVg-B4-cC8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="92i-CD-k4b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1386" y="98"/>
+        </scene>
+        <!--Catalog View Controller-->
+        <scene sceneID="7sc-hH-hHx">
+            <objects>
+                <viewController storyboardIdentifier="catalogViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sCf-PF-bAD" customClass="catalogViewController" customModule="Gload_Social_Good" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eNs-Jm-w0t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="pzE-t5-sHi"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WUN-fA-7a0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-641" y="98"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="Z79-Jf-mfn">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BWh-XF-JIt" customClass="DetailViewController" customModule="Gload_Social_Good" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cba-ZB-tmi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cntower-white.png" translatesAutoresizingMaskIntoConstraints="NO" id="9R8-cz-RyW">
+                                <rect key="frame" x="67" y="113" width="240" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CN Tower" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P14-wh-nuj">
+                                <rect key="frame" x="128" y="63" width="117" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" red="0.15119314189999999" green="0.26267915959999999" blue="0.58434468510000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Address: 301 Front St W, Toronto, ON M5V 2T6                              Height: 553 m                         Floors: 147" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RD9-En-FXQ">
+                                <rect key="frame" x="67" y="359" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.15119314189999999" green="0.26267915959999999" blue="0.58434468510000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kZ8-QM-uCz">
+                                <rect key="frame" x="22" y="446" width="330" height="229"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">The original concept of the CN Tower originated in 1968 when the Canadian National Railway wanted to build a large TV and radio communication platform to serve the Toronto area, as well as demonstrate the strength of Canadian industry and CN in particular. These plans evolved over the next few years, and the project became official in 1972.
+
+The tower would have been part of Metro Centre, a large development south of Front Street on the Railway Lands, a large railway switching yard that was being made redundant by newer yards outside the city. Key project team members were NCK Engineering as structural engineer; John Andrews Architects; Webb, Zerafa, Menkes, Housden Architects; Foundation Building Construction; and Canron (Eastern Structural Division).
+
+As Toronto grew rapidly during the late 1960s and early 1970s, multiple skyscrapers were constructed in the downtown core, most notably First Canadian Place. The reflective nature of the new buildings compromised the quality of broadcast signals necessitating new, higher antennas that were at least 300 m (980 ft) tall.</mutableString>
+                                <color key="textColor" red="0.15119314189999999" green="0.26267915959999999" blue="0.58434468510000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dC7-an-TlO">
+                                <rect key="frame" x="116" y="704" width="148" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Translate: Arabic">
+                                    <color key="titleColor" red="0.15119314189999999" green="0.26267915959999999" blue="0.58434468510000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="translateTextField:" destination="BWh-XF-JIt" eventType="touchUpInside" id="GLG-d8-GkD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSH-Fa-20t">
+                                <rect key="frame" x="28" y="65" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.15119314189999999" green="0.26267915959999999" blue="0.58434468510000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="return:" destination="BWh-XF-JIt" eventType="touchUpInside" id="hTv-5o-naQ"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5IS-rU-fGm">
+                                <rect key="frame" x="22" y="446" width="330" height="229"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">نشأ المفهوم الأصلي لبرج CN في عام 1968 عندما أرادت السكك الحديدية الوطنية الكندية بناء منصة اتصالات تلفزيونية وإذاعية كبيرة لخدمة منطقة تورونتو ، فضلاً عن إظهار قوة الصناعة الكندية و CN على وجه الخصوص. تطورت هذه الخطط على مدى السنوات القليلة المقبلة ، وأصبح المشروع رسميًا في عام 1972.
+
+كان البرج جزءًا من مركز المترو ، وهو مشروع كبير يقع جنوب شارع فرونت على أراضي السكك الحديدية ، وهو ساحة كبيرة لتحويل السكك الحديدية التي أصبحت زائدة عن الحاجة بواسطة ساحات أحدث خارج المدينة. كان أعضاء فريق المشروع الرئيسيين هم NCK Engineering كمهندس إنشائي. جون أندروز المهندسين المعماريين. Web، Zerafa، Menkes، Housden Architects؛ بناء مؤسسة الأساس؛ و Canron (القسم الإنشائي الشرقي).
+
+مع نمو تورونتو بسرعة خلال أواخر الستينيات وأوائل السبعينيات ، تم بناء ناطحات سحاب متعددة في قلب وسط المدينة ، وعلى الأخص First Canadian Place. إن الطبيعة الانعكاسية للمباني الجديدة تقوض جودة إشارات البث التي تستلزم هوائيات جديدة أعلى يبلغ طولها 300 متر (980 قدمًا) على الأقل.</mutableString>
+                                <color key="textColor" red="0.15119314189999999" green="0.26267915959999999" blue="0.58434468510000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="xtf-ka-wJt"/>
+                    </view>
+                    <connections>
+                        <outlet property="arabic" destination="5IS-rU-fGm" id="RMd-5l-jPC"/>
+                        <outlet property="english" destination="kZ8-QM-uCz" id="3Hx-8z-DnE"/>
+                        <outlet property="translateButton" destination="dC7-an-TlO" id="c9V-7e-CuA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rDS-jJ-XU9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-642.39999999999998" y="784.72906403940885"/>
+        </scene>
+        <!--Catalog Item View Controller-->
+        <scene sceneID="WCd-UZ-KuN">
+            <objects>
+                <viewController storyboardIdentifier="CatalogItemViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qgs-sV-l19" customClass="CatalogItemViewController" customModule="Gload_Social_Good" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ubi-X9-DAa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hVv-Mj-7qH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oAU-Lc-aG1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="98"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cntower-white.png" width="428" height="600"/>
+        <image name="fb-logo.png" width="713" height="151"/>
+        <image name="logoo.png" width="512" height="512"/>
+    </resources>
+</document>

@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C26CB3E228F9842003E80E2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C26CB3D228F9842003E80E2 /* MenuViewController.swift */; };
+		3C26CB40228FB7FE003E80E2 /* SnapchatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C26CB3F228FB7FE003E80E2 /* SnapchatViewController.swift */; };
+		3C26CB42228FC8AA003E80E2 /* logoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C26CB41228FC8AA003E80E2 /* logoo.png */; };
+		3C26CB44228FE315003E80E2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C26CB43228FE315003E80E2 /* DetailViewController.swift */; };
+		3C26CB46229032D2003E80E2 /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C26CB45229032D2003E80E2 /* CaptureViewController.swift */; };
+		3C26CB4B22904859003E80E2 /* Ruhacks.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3C26CB4A22904859003E80E2 /* Ruhacks.mlmodel */; };
+		3C26CB4D2290502C003E80E2 /* fb-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C26CB4C2290502C003E80E2 /* fb-logo.png */; };
+		3C26CB4F22905284003E80E2 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C26CB4E22905284003E80E2 /* FoodViewController.swift */; };
+		3C26CB5122906D70003E80E2 /* cntower-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C26CB5022906D70003E80E2 /* cntower-white.png */; };
+		3C26CB532290730A003E80E2 /* cntoweraudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C26CB522290730A003E80E2 /* cntoweraudio.mp3 */; };
+		3C26CB552290775C003E80E2 /* awake.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3C26CB542290775C003E80E2 /* awake.mlmodel */; };
+		3C7CE491227E1113002149AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CE490227E1113002149AF /* AppDelegate.swift */; };
+		3C7CE493227E1113002149AF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7CE492227E1113002149AF /* art.scnassets */; };
+		3C7CE495227E1113002149AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CE494227E1113002149AF /* ViewController.swift */; };
+		3C7CE498227E1113002149AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7CE496227E1113002149AF /* Main.storyboard */; };
+		3C7CE49D227E1116002149AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7CE49B227E1116002149AF /* LaunchScreen.storyboard */; };
+		3C7CE4A8227E1116002149AF /* Gload_Social_GoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CE4A7227E1116002149AF /* Gload_Social_GoodTests.swift */; };
+		3C7CE4B3227E1116002149AF /* Gload_Social_GoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CE4B2227E1116002149AF /* Gload_Social_GoodUITests.swift */; };
+		3C7CE4C1227E158A002149AF /* catalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CE4C0227E1589002149AF /* catalogViewController.swift */; };
+		3C7CE4C5227E1771002149AF /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CE4C4227E1771002149AF /* CustomCollectionViewCell.swift */; };
+		3C90FD8C227E280400D2BD6B /* CatalogItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90FD8B227E280300D2BD6B /* CatalogItemViewController.swift */; };
+		4E240D583360FA3E481C984C /* Pods_Gload_Social_GoodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B45DFF6B9C45274435CB295 /* Pods_Gload_Social_GoodUITests.framework */; };
+		C5B9FC0EA4C7AC2AF4FFDE71 /* Pods_Gload_Social_Good.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967AFEB149922DBB7DDA4B16 /* Pods_Gload_Social_Good.framework */; };
+		E0B13CC841C5BB10ED5DA186 /* Pods_Gload_Social_GoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE269681BC6A1AA6FFC2B5D /* Pods_Gload_Social_GoodTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C7CE4A4227E1116002149AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C7CE485227E1113002149AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C7CE48C227E1113002149AF;
+			remoteInfo = "Gload Social Good";
+		};
+		3C7CE4AF227E1116002149AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C7CE485227E1113002149AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C7CE48C227E1113002149AF;
+			remoteInfo = "Gload Social Good";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		073DA32F92DD79DBF7314462 /* Pods-Gload Social GoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gload Social GoodTests.debug.xcconfig"; path = "Target Support Files/Pods-Gload Social GoodTests/Pods-Gload Social GoodTests.debug.xcconfig"; sourceTree = "<group>"; };
+		07B3A8A6552790B449E5CB19 /* Pods-Gload Social Good.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gload Social Good.release.xcconfig"; path = "Target Support Files/Pods-Gload Social Good/Pods-Gload Social Good.release.xcconfig"; sourceTree = "<group>"; };
+		3C26CB3D228F9842003E80E2 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3C26CB3F228FB7FE003E80E2 /* SnapchatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatViewController.swift; sourceTree = "<group>"; };
+		3C26CB41228FC8AA003E80E2 /* logoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoo.png; sourceTree = "<group>"; };
+		3C26CB43228FE315003E80E2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3C26CB45229032D2003E80E2 /* CaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
+		3C26CB4A22904859003E80E2 /* Ruhacks.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Ruhacks.mlmodel; sourceTree = "<group>"; };
+		3C26CB4C2290502C003E80E2 /* fb-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fb-logo.png"; sourceTree = "<group>"; };
+		3C26CB4E22905284003E80E2 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		3C26CB5022906D70003E80E2 /* cntower-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cntower-white.png"; path = "viewControllers/cntower-white.png"; sourceTree = "<group>"; };
+		3C26CB522290730A003E80E2 /* cntoweraudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cntoweraudio.mp3; sourceTree = "<group>"; };
+		3C26CB542290775C003E80E2 /* awake.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = awake.mlmodel; sourceTree = "<group>"; };
+		3C7CE48D227E1113002149AF /* Gload Social Good.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gload Social Good.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7CE490227E1113002149AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C7CE492227E1113002149AF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		3C7CE494227E1113002149AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C7CE497227E1113002149AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C7CE49C227E1116002149AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C7CE49E227E1116002149AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7CE4A3227E1116002149AF /* Gload Social GoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gload Social GoodTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7CE4A7227E1116002149AF /* Gload_Social_GoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gload_Social_GoodTests.swift; sourceTree = "<group>"; };
+		3C7CE4A9227E1116002149AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7CE4AE227E1116002149AF /* Gload Social GoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gload Social GoodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7CE4B2227E1116002149AF /* Gload_Social_GoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gload_Social_GoodUITests.swift; sourceTree = "<group>"; };
+		3C7CE4B4227E1116002149AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7CE4C0227E1589002149AF /* catalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catalogViewController.swift; sourceTree = "<group>"; };
+		3C7CE4C4227E1771002149AF /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C90FD8B227E280300D2BD6B /* CatalogItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogItemViewController.swift; sourceTree = "<group>"; };
+		3C90FD8D227E287C00D2BD6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49AFA04AE4807F90B8B01E72 /* Pods-Gload Social GoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gload Social GoodTests.release.xcconfig"; path = "Target Support Files/Pods-Gload Social GoodTests/Pods-Gload Social GoodTests.release.xcconfig"; sourceTree = "<group>"; };
+		49E642C598EA373EB025B8F8 /* Pods-Gload Social GoodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gload Social GoodUITests.release.xcconfig"; path = "Target Support Files/Pods-Gload Social GoodUITests/Pods-Gload Social GoodUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B45DFF6B9C45274435CB295 /* Pods_Gload_Social_GoodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gload_Social_GoodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		967AFEB149922DBB7DDA4B16 /* Pods_Gload_Social_Good.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gload_Social_Good.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3D3B65B82C30346F56CFE9 /* Pods-Gload Social Good.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gload Social Good.debug.xcconfig"; path = "Target Support Files/Pods-Gload Social Good/Pods-Gload Social Good.debug.xcconfig"; sourceTree = "<group>"; };
+		DFE269681BC6A1AA6FFC2B5D /* Pods_Gload_Social_GoodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gload_Social_GoodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5505F739230C5C3335F704 /* Pods-Gload Social GoodUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gload Social GoodUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gload Social GoodUITests/Pods-Gload Social GoodUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C7CE48A227E1113002149AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B9FC0EA4C7AC2AF4FFDE71 /* Pods_Gload_Social_Good.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7CE4A0227E1116002149AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B13CC841C5BB10ED5DA186 /* Pods_Gload_Social_GoodTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7CE4AB227E1116002149AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E240D583360FA3E481C984C /* Pods_Gload_Social_GoodUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C7CE484227E1113002149AF = {
+			isa = PBXGroup;
+			children = (
+				3C7CE48F227E1113002149AF /* Gload Social Good */,
+				3C7CE4A6227E1116002149AF /* Gload Social GoodTests */,
+				3C7CE4B1227E1116002149AF /* Gload Social GoodUITests */,
+				3C7CE48E227E1113002149AF /* Products */,
+				DCA162BBC9A72FF5B4E566F5 /* Pods */,
+				AB0A572BEA6AA73EBD97D988 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C7CE48E227E1113002149AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C7CE48D227E1113002149AF /* Gload Social Good.app */,
+				3C7CE4A3227E1116002149AF /* Gload Social GoodTests.xctest */,
+				3C7CE4AE227E1116002149AF /* Gload Social GoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C7CE48F227E1113002149AF /* Gload Social Good */ = {
+			isa = PBXGroup;
+			children = (
+				3C7CE490227E1113002149AF /* AppDelegate.swift */,
+				3C90FD8D227E287C00D2BD6B /* Assets.xcassets */,
+				3C7CE492227E1113002149AF /* art.scnassets */,
+				3C90FD8F227E29F500D2BD6B /* groups */,
+				3C90FD8E227E29E500D2BD6B /* viewControllers */,
+				3C7CE496227E1113002149AF /* Main.storyboard */,
+				3C26CB522290730A003E80E2 /* cntoweraudio.mp3 */,
+				3C26CB542290775C003E80E2 /* awake.mlmodel */,
+				3C26CB41228FC8AA003E80E2 /* logoo.png */,
+				3C26CB5022906D70003E80E2 /* cntower-white.png */,
+				3C26CB4C2290502C003E80E2 /* fb-logo.png */,
+				3C7CE49B227E1116002149AF /* LaunchScreen.storyboard */,
+				3C7CE49E227E1116002149AF /* Info.plist */,
+				3C26CB4A22904859003E80E2 /* Ruhacks.mlmodel */,
+			);
+			path = "Gload Social Good";
+			sourceTree = "<group>";
+		};
+		3C7CE4A6227E1116002149AF /* Gload Social GoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C7CE4A7227E1116002149AF /* Gload_Social_GoodTests.swift */,
+				3C7CE4A9227E1116002149AF /* Info.plist */,
+			);
+			path = "Gload Social GoodTests";
+			sourceTree = "<group>";
+		};
+		3C7CE4B1227E1116002149AF /* Gload Social GoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C7CE4B2227E1116002149AF /* Gload_Social_GoodUITests.swift */,
+				3C7CE4B4227E1116002149AF /* Info.plist */,
+			);
+			path = "Gload Social GoodUITests";
+			sourceTree = "<group>";
+		};
+		3C90FD8E227E29E500D2BD6B /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C26CB3D228F9842003E80E2 /* MenuViewController.swift */,
+				3C7CE494227E1113002149AF /* ViewController.swift */,
+				3C7CE4C0227E1589002149AF /* catalogViewController.swift */,
+				3C90FD8B227E280300D2BD6B /* CatalogItemViewController.swift */,
+				3C26CB3F228FB7FE003E80E2 /* SnapchatViewController.swift */,
+				3C26CB43228FE315003E80E2 /* DetailViewController.swift */,
+				3C26CB45229032D2003E80E2 /* CaptureViewController.swift */,
+				3C26CB4E22905284003E80E2 /* FoodViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		3C90FD8F227E29F500D2BD6B /* groups */ = {
+			isa = PBXGroup;
+			children = (
+				3C7CE4C4227E1771002149AF /* CustomCollectionViewCell.swift */,
+			);
+			path = groups;
+			sourceTree = "<group>";
+		};
+		AB0A572BEA6AA73EBD97D988 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				967AFEB149922DBB7DDA4B16 /* Pods_Gload_Social_Good.framework */,
+				DFE269681BC6A1AA6FFC2B5D /* Pods_Gload_Social_GoodTests.framework */,
+				4B45DFF6B9C45274435CB295 /* Pods_Gload_Social_GoodUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCA162BBC9A72FF5B4E566F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF3D3B65B82C30346F56CFE9 /* Pods-Gload Social Good.debug.xcconfig */,
+				07B3A8A6552790B449E5CB19 /* Pods-Gload Social Good.release.xcconfig */,
+				073DA32F92DD79DBF7314462 /* Pods-Gload Social GoodTests.debug.xcconfig */,
+				49AFA04AE4807F90B8B01E72 /* Pods-Gload Social GoodTests.release.xcconfig */,
+				EB5505F739230C5C3335F704 /* Pods-Gload Social GoodUITests.debug.xcconfig */,
+				49E642C598EA373EB025B8F8 /* Pods-Gload Social GoodUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C7CE48C227E1113002149AF /* Gload Social Good */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7CE4B7227E1116002149AF /* Build configuration list for PBXNativeTarget "Gload Social Good" */;
+			buildPhases = (
+				C4487428F208433302B522D6 /* [CP] Check Pods Manifest.lock */,
+				3C7CE489227E1113002149AF /* Sources */,
+				3C7CE48A227E1113002149AF /* Frameworks */,
+				3C7CE48B227E1113002149AF /* Resources */,
+				9E8CF07CC6FB69B7F08E6C47 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gload Social Good";
+			productName = "Gload Social Good";
+			productReference = 3C7CE48D227E1113002149AF /* Gload Social Good.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C7CE4A2227E1116002149AF /* Gload Social GoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7CE4BA227E1116002149AF /* Build configuration list for PBXNativeTarget "Gload Social GoodTests" */;
+			buildPhases = (
+				3D1248F97FFDE87C5B97BE48 /* [CP] Check Pods Manifest.lock */,
+				3C7CE49F227E1116002149AF /* Sources */,
+				3C7CE4A0227E1116002149AF /* Frameworks */,
+				3C7CE4A1227E1116002149AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C7CE4A5227E1116002149AF /* PBXTargetDependency */,
+			);
+			name = "Gload Social GoodTests";
+			productName = "Gload Social GoodTests";
+			productReference = 3C7CE4A3227E1116002149AF /* Gload Social GoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C7CE4AD227E1116002149AF /* Gload Social GoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7CE4BD227E1116002149AF /* Build configuration list for PBXNativeTarget "Gload Social GoodUITests" */;
+			buildPhases = (
+				1CE0A3114713452415B24F0C /* [CP] Check Pods Manifest.lock */,
+				3C7CE4AA227E1116002149AF /* Sources */,
+				3C7CE4AB227E1116002149AF /* Frameworks */,
+				3C7CE4AC227E1116002149AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C7CE4B0227E1116002149AF /* PBXTargetDependency */,
+			);
+			name = "Gload Social GoodUITests";
+			productName = "Gload Social GoodUITests";
+			productReference = 3C7CE4AE227E1116002149AF /* Gload Social GoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C7CE485227E1113002149AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "omar said";
+				TargetAttributes = {
+					3C7CE48C227E1113002149AF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3C7CE4A2227E1116002149AF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3C7CE48C227E1113002149AF;
+					};
+					3C7CE4AD227E1116002149AF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3C7CE48C227E1113002149AF;
+					};
+				};
+			};
+			buildConfigurationList = 3C7CE488227E1113002149AF /* Build configuration list for PBXProject "Gload Social Good" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C7CE484227E1113002149AF;
+			productRefGroup = 3C7CE48E227E1113002149AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C7CE48C227E1113002149AF /* Gload Social Good */,
+				3C7CE4A2227E1116002149AF /* Gload Social GoodTests */,
+				3C7CE4AD227E1116002149AF /* Gload Social GoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C7CE48B227E1113002149AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C26CB42228FC8AA003E80E2 /* logoo.png in Resources */,
+				3C26CB5122906D70003E80E2 /* cntower-white.png in Resources */,
+				3C26CB532290730A003E80E2 /* cntoweraudio.mp3 in Resources */,
+				3C7CE493227E1113002149AF /* art.scnassets in Resources */,
+				3C7CE49D227E1116002149AF /* LaunchScreen.storyboard in Resources */,
+				3C26CB4D2290502C003E80E2 /* fb-logo.png in Resources */,
+				3C7CE498227E1113002149AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7CE4A1227E1116002149AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7CE4AC227E1116002149AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CE0A3114713452415B24F0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gload Social GoodUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D1248F97FFDE87C5B97BE48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gload Social GoodTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E8CF07CC6FB69B7F08E6C47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gload Social Good/Pods-Gload Social Good-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKBitmojiKit.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKCoreKit.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKCreativeKit.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/UberCore/UberCore.framework",
+				"${BUILT_PRODUCTS_DIR}/UberRides/UberRides.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKBitmojiKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKCreativeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UberCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UberRides.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gload Social Good/Pods-Gload Social Good-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4487428F208433302B522D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gload Social Good-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C7CE489227E1113002149AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C26CB4B22904859003E80E2 /* Ruhacks.mlmodel in Sources */,
+				3C26CB40228FB7FE003E80E2 /* SnapchatViewController.swift in Sources */,
+				3C7CE4C5227E1771002149AF /* CustomCollectionViewCell.swift in Sources */,
+				3C26CB4F22905284003E80E2 /* FoodViewController.swift in Sources */,
+				3C26CB3E228F9842003E80E2 /* MenuViewController.swift in Sources */,
+				3C7CE4C1227E158A002149AF /* catalogViewController.swift in Sources */,
+				3C26CB552290775C003E80E2 /* awake.mlmodel in Sources */,
+				3C26CB46229032D2003E80E2 /* CaptureViewController.swift in Sources */,
+				3C90FD8C227E280400D2BD6B /* CatalogItemViewController.swift in Sources */,
+				3C7CE495227E1113002149AF /* ViewController.swift in Sources */,
+				3C7CE491227E1113002149AF /* AppDelegate.swift in Sources */,
+				3C26CB44228FE315003E80E2 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7CE49F227E1116002149AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7CE4A8227E1116002149AF /* Gload_Social_GoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7CE4AA227E1116002149AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7CE4B3227E1116002149AF /* Gload_Social_GoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C7CE4A5227E1116002149AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C7CE48C227E1113002149AF /* Gload Social Good */;
+			targetProxy = 3C7CE4A4227E1116002149AF /* PBXContainerItemProxy */;
+		};
+		3C7CE4B0227E1116002149AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C7CE48C227E1113002149AF /* Gload Social Good */;
+			targetProxy = 3C7CE4AF227E1116002149AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C7CE496227E1113002149AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7CE497227E1113002149AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C7CE49B227E1116002149AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7CE49C227E1116002149AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C7CE4B5227E1116002149AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C7CE4B6227E1116002149AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C7CE4B8227E1116002149AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3D3B65B82C30346F56CFE9 /* Pods-Gload Social Good.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3446L3GC2R;
+				INFOPLIST_FILE = "Gload Social Good/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.global.Gload-Social-Good";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C7CE4B9227E1116002149AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B3A8A6552790B449E5CB19 /* Pods-Gload Social Good.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3446L3GC2R;
+				INFOPLIST_FILE = "Gload Social Good/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.global.Gload-Social-Good";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C7CE4BB227E1116002149AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 073DA32F92DD79DBF7314462 /* Pods-Gload Social GoodTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gload Social GoodTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.global.Gload-Social-GoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gload Social Good.app/Gload Social Good";
+			};
+			name = Debug;
+		};
+		3C7CE4BC227E1116002149AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49AFA04AE4807F90B8B01E72 /* Pods-Gload Social GoodTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gload Social GoodTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.global.Gload-Social-GoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gload Social Good.app/Gload Social Good";
+			};
+			name = Release;
+		};
+		3C7CE4BE227E1116002149AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB5505F739230C5C3335F704 /* Pods-Gload Social GoodUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gload Social GoodUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.global.Gload-Social-GoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gload Social Good";
+			};
+			name = Debug;
+		};
+		3C7CE4BF227E1116002149AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E642C598EA373EB025B8F8 /* Pods-Gload Social GoodUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gload Social GoodUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.global.Gload-Social-GoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gload Social Good";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C7CE488227E1113002149AF /* Build configuration list for PBXProject "Gload Social Good" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7CE4B5227E1116002149AF /* Debug */,
+				3C7CE4B6227E1116002149AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7CE4B7227E1116002149AF /* Build configuration list for PBXNativeTarget "Gload Social Good" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7CE4B8227E1116002149AF /* Debug */,
+				3C7CE4B9227E1116002149AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7CE4BA227E1116002149AF /* Build configuration list for PBXNativeTarget "Gload Social GoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7CE4BB227E1116002149AF /* Debug */,
+				3C7CE4BC227E1116002149AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7CE4BD227E1116002149AF /* Build configuration list for PBXNativeTarget "Gload Social GoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7CE4BE227E1116002149AF /* Debug */,
+				3C7CE4BF227E1116002149AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C7CE485227E1113002149AF /* Project object */;
+}
